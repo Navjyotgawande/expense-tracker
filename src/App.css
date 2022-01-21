@@ -1,0 +1,15 @@
+.wrapper{
+  width:65%;
+  margin: 20px auto;
+  background-color: #1f1f1f;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: rgb(248 238 238 / 35%) 0px 3px 2px;
+  
+}
+@media only Screen and (max-device-width:768px){
+  .wrapper{
+    width: 100%;
+    
+  }
+}

@@ -1,0 +1,32 @@
+.NewExpense{
+    width:65%;
+    margin: 20px auto;
+    background-color: #9f86ec;
+    padding: 20px;
+    border-radius: 20px;
+   display: flex;
+   justify-content: center;
+  }
+
+ .submitData{
+    border: none;
+    background-color: #411854;
+    color: #fff;
+    padding: 16px;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 20px;
+ }
+ .NewExpense label{
+     color: black;
+     font-weight: 600;
+     font-size: 20px;
+    
+ }
+
+
+ @media only Screen and (max-device-width:768px){
+    .NewExpense{
+      width: 100%;
+    }
+  }
